@@ -20,9 +20,9 @@
 |``` hostname```|To see the hostname/container_id|
 |```route -n ```|To see the routing table of the container|
 |```docker build -t <image_name> . ```|To build the docker image from the Dockerfile </br> N.B : imageName should be in lowercase|
-|``` docker image ls```|To see the list of all the available images in your machine with their tag, image id, creatiion time and size|
 |``` docker run -d -p 8080:8080 <image_name>```|To run the docker image with the port mapping and in detached mode.</br> First one is host port , second one is container port|
 |``` docker run -d -p 8080:8080 --name <container_name> <image_name>```|using name flag to give a name to the container|
+|``` docker image ls```|To see the list of all the available images in your machine with their tag, image id, creatiion time and size|
 |```delete rm container_id ```|To delete a specific container which id container_id|
 |``` delete rmi image_id```|To delete a specific image|
 |``` delete rmi image_id```|To delete a specific image|

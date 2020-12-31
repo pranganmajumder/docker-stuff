@@ -1,7 +1,7 @@
 ## Docker Basic Command
 | Commands                 |                 Use                    |
 |--------------------------|----------------------------------------|
-|```ps aus```|To see which process is currently running in your pc|
+|```ps aux```|To see which process is currently running in your pc|
 |```ip addr show```|To see the ethernet card in your machine including virtual ethernet card|
 |``` users``` or ```sudo users```|To see the users, user id of the root user |
 |``` id -u```| To get user ID|

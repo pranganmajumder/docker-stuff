@@ -28,9 +28,12 @@
 |``` delete rmi image_id```|To delete a specific image|
 |``` delete rmi -f image_id```|force to delete a specific image|
 |`docker rm -f (docker ps -a `&#124;` awk '{print $1}')` |To delete all the docker container available in your machine|
+|`docker rm -vf $(docker ps -a -q)`|To delete all containers including its volumes use|
+|`docker rmi -f $(docker images -a -q)`|To delete all the images|
 |`docker rmi -f (docker images `&#124;` awk '{print $3}')` |To delete all the docker images available in your machine|
 |`docker rmi -f (docker images `&#124;` grep none `&#124;` awk '{print $3}')` |To delete all the "none" docker images available in your machine|
 |`grep`|to select|
 |`docker container prune`|To delete the all the stopped container available on your machine|
+
 
 

@@ -35,5 +35,9 @@
 |`grep`|to select|
 |`docker container prune`|To delete the all the stopped container available on your machine|
 
+###### push a image : 
+`docker tag <img id> pranganmajumder/customImage:1.0`
+`docker push pranganmajumder/customImage:1.0`
+
 
 

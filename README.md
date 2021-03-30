@@ -36,7 +36,7 @@
 |`docker container prune`|To delete the all the stopped container available on your machine|
 
 ###### push a image : 
-`docker tag <img id> pranganmajumder/customImage:1.0`
+`docker tag <img id> pranganmajumder/customImage:1.0` </br>
 `docker push pranganmajumder/customImage:1.0`
 
 

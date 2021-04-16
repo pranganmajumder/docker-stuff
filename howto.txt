@@ -1,0 +1,4 @@
+To exec container : 
+Run docker image first =>  `docker run -it predis:0.0.0`  It'll run in interective mode
+get docker container => `docker ps -a`
+exec container=> `docker exec -it <containerId> bash`
